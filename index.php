@@ -3,7 +3,7 @@
   * wechat php test
   */
 //define your token
-define("TOKEN", "ichigo");
+define("TOKEN", "weixin");
 $wechatObj = new wechatCallbackapiTest();
 $wechatObj->valid();
 class wechatCallbackapiTest
